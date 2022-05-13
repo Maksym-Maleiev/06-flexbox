@@ -1,0 +1,471 @@
+/* Свойства display */
+/* .link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+} */
+
+/* Пример */
+
+/* body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.menu {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  text-decoration: underline;
+} */
+
+/* Свойство flex-direction */
+
+/* body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.menu {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+}
+
+.menu.reversed {
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu.reversed > .item:not(:last-child) {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  text-decoration: underline;
+} */
+
+/* Свойство justify-contant */
+
+/* body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+code {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  text-decoration: underline;
+}
+
+.menu.flex-end {
+  justify-content: flex-end;
+}
+
+.menu.center {
+  justify-content: center;
+}
+
+.menu.space-between {
+  justify-content: space-between;
+} */
+
+/* Свойство align-items */
+
+/* body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background-color: #607d8b;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #ff5722;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus,
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+} */
+
+/* Карточка с изображением */
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #edf2f7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  width: 640px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.card.flex-start-aligned {
+  align-items: flex-start;
+}
+
+.card > .content {
+  margin-left: 15px;
+} */
+
+/* Свойство flex-wrap */
+/* Сетка элементов */
+
+/* body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #edf2f7;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  flex-basis: calc((100% - 30px) / 2);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item p {
+  margin: 0;
+} */
+
+/* Для закрепления */
+
+/* body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 5px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  flex-basis: calc((100% - 20px) / 2);
+  background-color: goldenrod;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+} */
+
+/* Для закрепления */
+
+.box {
+  padding: 15px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list > li {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  flex-basis: calc((100% - 20px) / 2);
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* Свойство flex-grow */
+/* Резиновый контент */
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  background-color: #edf2f7;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sidebar {
+  flex-basis: 250px;
+  margin-right: 24px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.sidebar,
+.content {
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+} */
+
+/* Футер карточки */
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #edf2f7;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 320px;
+  margin: 8px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card > .content {
+  flex-grow: 1;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px dashed tomato;
+  border-radius: 4px;
+}
+
+.card > .meta {
+  padding: 10px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: -8px;
+} */
+
+/* Свойство align-self */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #edf2f7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  width: 640px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card.flex-start-aligned > img {
+  align-self: flex-start;
+}
+
+.card > .content {
+  margin-left: 15px;
+}
